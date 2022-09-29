@@ -1,0 +1,105 @@
+/* ========= BACKGROUND SETTING ========= */
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+/* ========= PANEL CALCULATOR ========= */
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: #fcfeff;
+    margin:0 auto;
+    top: 70px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2),
+                0 6px 82px 0 rgba(0, 0, 0, 0.178)
+}
+
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 60px;
+    margin: 0px 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+#keyboard{
+    height: 400px;
+}
+
+/* ========= BUTTON CALCULATOR ========= */
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    border: solid #919191;
+    box-shadow: 2px 2px 0px 0 rgba(0, 0, 0, 0.2);
+}
+
+.number, .empty{
+    background-color: #eaedef;
+}
+
+.operator, .number{
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+    font-size: 13px;
+}
+
+.operator:focus, .number:focus{
+    outline: 0;
+}
+
+/* ========= COLORING BUTTON CALCULATOR ========= */
+
+button:nth-child(4){
+    font-size: 22px;
+    background-color: violet;
+}
+
+button:nth-child(8){
+    font-size: 22px;
+    background-color: goldenrod;
+}
+
+button:nth-child(12){
+    font-size: 22px;
+    background-color: salmon;
+}
+
+button:nth-child(16){
+    font-size: 22px;
+    background-color: lightskyblue;
+}
+
+button:nth-child(20){
+    font-size: 22px;
+    background-color: teal;
+}
+
+
+
